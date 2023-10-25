@@ -24,3 +24,17 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@layer components {
+  body {
+    @apply font-CircularStd;
+  }
+
+  .header-container {
+    @apply mx-auto max-2xl:px-6 w-full 2xl:w-[1550px] h-[55px] flex items-center justify-between;
+  }
+
+  .primary-btn {
+    @apply bg-primary flex items-center justify-center rounded-[5px] px-4 py-[19.5px] leading-none text-white text-base font-medium;
+  }
+}

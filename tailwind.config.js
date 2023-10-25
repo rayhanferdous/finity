@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        "2xl": "1600px",
+      },
       fontFamily: {
         CircularStd: ["CircularStd", "sans-serif"],
       },
@@ -15,6 +18,9 @@ module.exports = {
         secondary: "#FFD166",
         heading: "#1D293F",
         "light-gray": "#7C8087",
+      },
+      fontWeight: {
+        book: 350,
       },
     },
   },
