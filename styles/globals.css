@@ -31,10 +31,19 @@
   }
 
   .header-container {
-    @apply mx-auto max-2xl:px-6 w-full 2xl:w-[1550px] h-[55px] flex items-center justify-between;
+    @apply mx-auto max-2xl:px-6 w-full 2xl:w-[1550px] h-[55px] my-3 flex items-center justify-between;
   }
 
   .primary-btn {
-    @apply bg-primary flex items-center justify-center rounded-[5px] px-4 py-[19.5px] leading-none text-white text-base font-medium;
+    @apply bg-primary text-center w-fit rounded-[5px] px-4 py-[19.5px] leading-none text-white text-base font-medium;
+  }
+  .container {
+    @apply mx-auto max-xl:px-6 w-full xl:w-[1160px];
+  }
+  .common-gap {
+    @apply py-[123px];
+  }
+  .top-icon-shadow {
+    box-shadow: 0px 32px 54px 0px rgba(37, 138, 255, 0.22);
   }
 }
