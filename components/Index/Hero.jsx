@@ -11,14 +11,14 @@ const Hero = () => {
           <h1 className=" text-[70px] font-bold leading-[70px]">
             Get valuable <br /> leads inside <br /> WordPress.
           </h1>
-          <p className="text-[21px] font-normal leading-[34px]">
+          <p className="text-[21px] font-book leading-[34px]">
             We’ve helped over 2,500 job seekers to get <br />
             into the most popular tech teams.
           </p>
         </div>
         <div className="inline-flex flex-col gap-[30px]">
           <PrimaryBtn title={"Get Started for Free"} />
-          <div className="text-base font-normal leading-7">
+          <div className="text-base font-book leading-7">
             Still confused?
             <span className="text-primary">Check our 1 min video</span>
           </div>

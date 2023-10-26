@@ -11,9 +11,7 @@ const TopIconCard = ({ img, title, desc, style, rotate, hidden }) => {
         <h3 className="text-heading text-2xl font-bold leading-[34px]">
           {title}
         </h3>
-        <p className="text-light-gray text-base font-normal leading-7">
-          {desc}
-        </p>
+        <p className="text-light-gray text-base font-book leading-7">{desc}</p>
       </div>
       <Image
         className={`absolute -right-10 ${

@@ -11,7 +11,7 @@ const ContentIconCard = ({ img, title, desc }) => {
         <h4 className="text-heading text-[21px] font-bold leading-[34px]">
           {title}
         </h4>
-        <p className="w-60 text-light-gray text-base font-normal leading-7">
+        <p className="w-60 text-light-gray text-base font-book leading-7">
           {desc}
         </p>
       </div>

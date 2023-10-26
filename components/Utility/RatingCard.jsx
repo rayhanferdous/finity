@@ -13,11 +13,8 @@ const RatingCard = ({ heading, active, icon, link, linkText }) => {
             <Image key={index} width={16} height={16} src={icon} />
           ))}
       </div>
-      <p className="text-base font-normal leading-7">{active}</p>
-      <Link
-        href={link}
-        className="text-blue-500 text-base font-normal leading-7"
-      >
+      <p className="text-base font-book leading-7">{active}</p>
+      <Link href={link} className="text-blue-500 text-base font-book leading-7">
         {linkText}
       </Link>
     </div>

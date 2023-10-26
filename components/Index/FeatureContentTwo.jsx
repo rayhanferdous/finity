@@ -16,7 +16,7 @@ const FeatureContentTwo = () => {
         />
         <div className="flex flex-col gap-11">
           <div className="flex flex-col gap-9">
-            <p className="text-heading text-lg font-normal leading-loose">
+            <p className="text-heading text-lg font-book leading-loose">
               Computer users and programmers have become so accustomed to using
               Windows, even for the changing capabilities and the appearances of
               the graphical interface of the versions, therefore it has remained
@@ -30,7 +30,7 @@ const FeatureContentTwo = () => {
             <PrimaryBtn title={"Get Started for Free"} />
           </div>
           <div className="flex flex-col gap-6">
-            <p className="text-light-gray text-[13px] font-normal leading-tight">
+            <p className="text-light-gray text-[13px] font-book leading-tight">
               “The following article covers a topic that has recently moved to
               center stage–at least it seems that way. If you’ve been thinking
               you need to know more about unconditional love, here’s your

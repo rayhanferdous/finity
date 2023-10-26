@@ -28,7 +28,7 @@ const UserRating = () => {
           Marketers and WordPress <br /> users since 2018.
         </h3>
         <div className="flex flex-col gap-[38px]">
-          <h4 className="text-light-gray text-lg font-normal leading-loose">
+          <h4 className="text-light-gray text-lg font-book leading-loose">
             Also featured in
           </h4>
           <div className="flex items-center gap-5">
