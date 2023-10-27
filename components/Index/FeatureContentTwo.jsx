@@ -5,8 +5,8 @@ import PrimaryBtn from "../Utility/Button/PrimaryBtn";
 const FeatureContentTwo = () => {
   return (
     <div className="flex flex-col gap-16">
-      <h3 className="text-heading text-[58px] font-bold leading-[64px]">
-        Meet with clients <br /> anytime, anywhere.
+      <h3 className="text-heading max-lg:text-4xl lg:text-[58px] font-bold leading-[64px]">
+        Meet with clients <br className="max-md:hidden" /> anytime, anywhere.
       </h3>
       <ContentCard>
         <Image

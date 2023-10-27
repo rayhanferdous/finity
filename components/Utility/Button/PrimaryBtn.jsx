@@ -1,7 +1,7 @@
 import React from "react";
 
 const PrimaryBtn = ({ title }) => {
-  return <div className="primary-btn">{title}</div>;
+  return <button className="primary-btn">{title}</button>;
 };
 
 export default PrimaryBtn;

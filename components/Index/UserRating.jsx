@@ -4,10 +4,7 @@ import Image from "next/image";
 
 const UserRating = () => {
   return (
-    <div
-      className="common-gap flex items-start justify-between
-    "
-    >
+    <div className="common-gap flex items-start xl:justify-between gap-10 max-xl:flex-wrap">
       <RatingCard
         heading={"10k"}
         icon={"/assets/img/user-rating/heart.svg"}
@@ -23,15 +20,16 @@ const UserRating = () => {
         linkText={"WordPress Community"}
       />
       <div className="flex flex-col gap-[44px]">
-        <h3 className="text-heading text-[34px] font-bold leading-[45px]">
-          Trusted by 25,000+ happy <br />
-          Marketers and WordPress <br /> users since 2018.
+        <h3 className="text-heading max-lg:text-xl lg:text-[34px] font-bold leading-[45px]">
+          Trusted by 25,000+ happy <br className="max-md:hidden" />
+          Marketers and WordPress <br className="max-md:hidden" /> users since
+          2018.
         </h3>
         <div className="flex flex-col gap-[38px]">
           <h4 className="text-light-gray text-lg font-book leading-loose">
             Also featured in
           </h4>
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-5 max-sm:flex-wrap">
             <Image
               width={100}
               height={30}

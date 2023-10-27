@@ -31,7 +31,7 @@ const Footer = () => {
   };
   return (
     <div className="container common-gap">
-      <div className=" flex items-start justify-between">
+      <div className=" flex items-start gap-10 max-xl:flex-wrap justify-between">
         {Object.keys(footerLinks).map((key, index) => {
           return (
             <div className="flex flex-col gap-2">
@@ -41,7 +41,7 @@ const Footer = () => {
               {footerLinks[key].map((link, index) => {
                 return link.link == "" ? (
                   <div
-                    className={`text-light-gray text-base font-book leading-7 flex flex-col gap-5 w-[394px]
+                    className={`text-light-gray text-base font-book leading-7 flex flex-col gap-5 w-full sm:w-[394px]
                   `}
                   >
                     <p>{link.title}</p>

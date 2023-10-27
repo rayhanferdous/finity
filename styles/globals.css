@@ -41,7 +41,7 @@
     @apply mx-auto max-xl:px-6 w-full xl:w-[1160px];
   }
   .common-gap {
-    @apply py-[123px];
+    @apply py-[123px] max-xl:py-10;
   }
   .top-icon-shadow {
     box-shadow: 0px 32px 54px 0px rgba(37, 138, 255, 0.22);

@@ -7,8 +7,8 @@ const FeatureContentOne = () => {
     <div className="common-gap">
       <ContentCard>
         <div className="flex flex-col gap-14">
-          <h3 className="text-heading text-[58px] font-bold leading-[64px]">
-            Grow your <br /> business fast.
+          <h3 className="text-heading max-lg:text-4xl lg:text-[58px] font-bold leading-[64px]">
+            Grow your <br className="max-md:hidden" /> business fast.
           </h3>
           <div className="flex flex-col gap-10">
             <ContentIconCard

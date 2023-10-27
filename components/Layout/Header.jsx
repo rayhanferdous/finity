@@ -26,7 +26,7 @@ const Header = () => {
         src={"/assets/finity-logo.png"}
         alt="finity"
       />
-      <nav className="flex items-center gap-10">
+      <nav className="flex items-center gap-10 max-md:hidden">
         {navMenuItems.map((item, index) => (
           <Link
             key={index}
