@@ -46,4 +46,8 @@
   .top-icon-shadow {
     box-shadow: 0px 32px 54px 0px rgba(37, 138, 255, 0.22);
   }
+
+  .my-custom-pagination-div .swiper-pagination-bullet {
+    @apply w-[29px] h-1 inline-block rounded-full bg-primary cursor-pointer;
+  }
 }
