@@ -18,8 +18,9 @@ const Testimonial = ({ img }) => {
           />
         </div>
         <div className="flex items-center justify-between gap-5">
-          <h2 className="text-heading text-[58px] font-bold leading-[64px]">
-            1,000+ customers are <br /> loving Instappoint.
+          <h2 className="text-heading max-lg:text-2xl lg:text-[58px] font-bold leading-[64px]">
+            1,000+ customers are <br className="max-md:hidden" /> loving
+            Instappoint.
           </h2>
           <div className="flex items-center gap-10">
             <Image
@@ -35,10 +36,28 @@ const Testimonial = ({ img }) => {
           </div>
         </div>
       </div>
-      <div className="w-[1380px] ml-auto">
+      <div className="w-full max-xl:px-5 xl:pl-5 2xl:pl-0 2xl:w-[1380px] ml-auto">
         <Swiper
-          slidesPerView={4}
+          slidesPerView={1}
           spaceBetween={30}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            1208: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+          }}
           pagination={{
             el: ".my-custom-pagination-div",
             clickable: true,
@@ -76,8 +95,8 @@ const Testimonial = ({ img }) => {
             <TestimonialCard />
           </SwiperSlide>
         </Swiper>
+        <div className="flex items-center gap-4 mt-10 my-custom-pagination-div" />
       </div>
-      <div className="container flex items-center gap-4 my-custom-pagination-div" />
     </div>
   );
 };

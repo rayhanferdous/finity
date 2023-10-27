@@ -1,4 +1,3 @@
-import ContentCard from "@/components/Index/ContentCard";
 import Feature from "@/components/Index/Feature";
 import FeatureContentOne from "@/components/Index/FeatureContentOne";
 import FeatureContentTwo from "@/components/Index/FeatureContentTwo";
@@ -19,7 +18,7 @@ export default function Home() {
         <FeatureContentOne />
         <FeatureContentTwo />
       </div>
-      {/* <Testimonial /> */}
+      <Testimonial />
     </>
   );
 }
