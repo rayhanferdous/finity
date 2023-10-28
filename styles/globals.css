@@ -35,7 +35,7 @@
   }
 
   .primary-btn {
-    @apply bg-primary text-center w-fit rounded-[5px] px-4 py-[19.5px] leading-none text-white text-base font-medium;
+    @apply bg-primary text-center w-fit rounded-[5px] max-md:px-3 max-md:py-2 md:px-4 md:py-[19.5px] leading-none text-white max-sm:text-sm sm:text-base font-medium;
   }
   .container {
     @apply mx-auto max-xl:px-6 w-full xl:w-[1160px];

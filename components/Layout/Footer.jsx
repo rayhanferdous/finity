@@ -34,13 +34,14 @@ const Footer = () => {
       <div className=" flex items-start gap-10 max-xl:flex-wrap justify-between">
         {Object.keys(footerLinks).map((key, index) => {
           return (
-            <div className="flex flex-col gap-2">
+            <div key={index} className="flex flex-col gap-2">
               <h4 className="text-heading text-lg font-medium leading-loose">
                 {key}
               </h4>
               {footerLinks[key].map((link, index) => {
                 return link.link == "" ? (
                   <div
+                    key={index}
                     className={`text-light-gray text-base font-book leading-7 flex flex-col gap-5 w-full sm:w-[394px]
                   `}
                   >
