@@ -1,5 +1,4 @@
 import Cookies from "universal-cookie";
-import { useCookies } from "react-cookie";
 
 export const AuthRepo = {
   login: (userName, password) => {
