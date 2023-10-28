@@ -16,6 +16,7 @@ export const AuthRepo = {
         (result) => {
           const cookies = new Cookies(null, { path: "/" });
           cookies.set("token", result.token);
+          window.location.href = "/dashboard";
           return result;
         },
         (error) => {
